@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["beyond@be.to"]
   gem.description   = %q{ confirmatin view on model creation / changes }
   gem.summary       = %q{ confirmatin view without confirm action adding to controller. }
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/beyond/activerecord-confirmable"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
